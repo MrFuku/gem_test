@@ -5,7 +5,11 @@ RSpec.describe HelloHoge do
     expect(HelloHoge::VERSION).not_to be nil
   end
 
-  it "hello test" do
+  it "Hello Hoge" do
     expect(HelloHoge.hello).to eq("Hello Hoge")
+  end
+
+  it "Hello yokota" do
+    expect(HelloHoge.hello('yokota')).to eq("Hello yokota")
   end
 end
