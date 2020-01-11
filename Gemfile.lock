@@ -1,10 +1,19 @@
-GEM
+PATH
+  remote: .
   specs:
+    hello_hoge (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (12.3.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  hello_hoge!
+  rake (~> 12.0)
 
 BUNDLED WITH
    2.1.4
